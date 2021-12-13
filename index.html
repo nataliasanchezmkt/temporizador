@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natalia Sanchez">
+    <meta name="keywords" content="js,cronometro,tiempo,html,css,boostrap,reloj" >
+    <meta name="description" content="Practicando js y funciones de tiempo">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9464bef0b3.js" crossorigin="anonymous"></script>
+    <title>Temporizador</title>
+</head>
+
+<body class="bg-dark">
+    
+    <section class="container text-center mt-5 text-light" >
+        <article>
+        <input type="text"  id="entrada" value=''placeholder="Ingrese los minutos">
+        </article>
+        <article class="mt-5  ">
+        <p id="temporizador" class="mt-5 letra"></p>
+    </article>
+    <article>
+        <button class="btn btn-primary" id="start" onclick="start()"><i class="fas fa-play "></i></button>
+        <button class="btn btn-warning"onclick="pause()"><i class="fas fa-pause"></i></button>
+        <button class="btn btn-danger"  onclick="reset()"><i class="fas fa-stop"></i></button>
+    </article>
+    <article>
+        <p>Para reiniciar el temporizor presione stop</p>
+    </article>
+    </section>
+
+
+        
+
+<script src="js/bootstrap.min.js"></script></body>
+<script src="js/op2.js"></script>
+</body>
+</html>
